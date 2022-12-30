@@ -1,0 +1,190 @@
+{
+ "actions": [],
+ "autoname": "COMP.#######",
+ "creation": "2021-12-17 20:55:37.188503",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_1",
+  "company_name",
+  "industry",
+  "location",
+  "followers",
+  "column_break_4",
+  "tagline",
+  "employees",
+  "section_break_9",
+  "about",
+  "column_break_11",
+  "website",
+  "industries",
+  "company_size",
+  "headquarters",
+  "type",
+  "founded",
+  "specialties",
+  "products_section",
+  "products",
+  "section_break_19",
+  "locations",
+  "key_personnel_section",
+  "key_personnel"
+ ],
+ "fields": [
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name",
+   "length": 700
+  },
+  {
+   "fieldname": "industry",
+   "fieldtype": "Data",
+   "label": "Industry",
+   "length": 700
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "followers",
+   "fieldtype": "Float",
+   "label": "Followers"
+  },
+  {
+   "fieldname": "tagline",
+   "fieldtype": "Small Text",
+   "label": "Tagline"
+  },
+  {
+   "fieldname": "employees",
+   "fieldtype": "Float",
+   "label": "Employees"
+  },
+  {
+   "fieldname": "about",
+   "fieldtype": "Text",
+   "label": "About"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website",
+   "length": 700,
+   "options": "URL"
+  },
+  {
+   "fieldname": "industries",
+   "fieldtype": "Data",
+   "label": "Industries",
+   "length": 700
+  },
+  {
+   "fieldname": "company_size",
+   "fieldtype": "Data",
+   "label": "Company Size",
+   "length": 700
+  },
+  {
+   "fieldname": "headquarters",
+   "fieldtype": "Data",
+   "label": "Headquarters",
+   "length": 700
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type",
+   "length": 700
+  },
+  {
+   "fieldname": "founded",
+   "fieldtype": "Data",
+   "label": "Founded"
+  },
+  {
+   "fieldname": "specialties",
+   "fieldtype": "Small Text",
+   "label": "Specialties"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "Summary"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_19",
+   "fieldtype": "Section Break",
+   "label": "Locations"
+  },
+  {
+   "fieldname": "locations",
+   "fieldtype": "Table",
+   "label": "Locations",
+   "options": "Company Location"
+  },
+  {
+   "fieldname": "key_personnel_section",
+   "fieldtype": "Section Break",
+   "label": "Key Personnel"
+  },
+  {
+   "fieldname": "key_personnel",
+   "fieldtype": "Table",
+   "label": "Key Personnel",
+   "options": "Company Key Personnel"
+  },
+  {
+   "fieldname": "products_section",
+   "fieldtype": "Section Break",
+   "label": "Products"
+  },
+  {
+   "fieldname": "products",
+   "fieldtype": "Table",
+   "label": "Products",
+   "options": "Company Product"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-12-17 21:44:11.578038",
+ "modified_by": "Administrator",
+ "module": "Data Mining",
+ "name": "Company",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "company_name",
+ "track_changes": 1
+}

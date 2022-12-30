@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ecportal *.css
+recursive-include ecportal *.csv
+recursive-include ecportal *.html
+recursive-include ecportal *.ico
+recursive-include ecportal *.js
+recursive-include ecportal *.json
+recursive-include ecportal *.md
+recursive-include ecportal *.png
+recursive-include ecportal *.py
+recursive-include ecportal *.svg
+recursive-include ecportal *.txt
+recursive-exclude ecportal *.pyc
